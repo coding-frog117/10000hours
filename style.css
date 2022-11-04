@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+.blind{
+    display: none;
+}
+p{
+    margin:0;
+}
+body{
+    background-color: #5B2386;
+    text-align: center;
+    font-size:24px;
+    color:white;
+    font-family: 'GmarketSansMedium';
+}
+
+.header{
+    background-image: url(img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.tit-timelaw{
+    padding-top: 100px;
+}
+.better_text{
+    margin-top:66px;
+    margin-bottom: 78px;
+}
+.logo{
+    width:529px;
+     
+}
+.text{
+    color:white;
+    font-size:18px;
+    background-image: url(img/quotes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:102px;
+}
+.cursor{
+    position:relative;
+    top:40px;
+
+}
+.wannabe_blank, .hours_blank{
+    width: 228px;
+    height:57px;
+    border-radius: 7px;
+    font-size: 24px;
+    text-align: center;
+}
+.txt-time{
+    margin-bottom:115px;
+
+}
+.btn-exc, .btn-go, .btn-share{
+    background-color:#Fcee21;
+    padding:21px 49px 21px 49px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#5B2386;
+    font-weight:700;
+    border-radius:36px;
+    border:solid 1px #5B2386;
+}
+.btn-exc{
+    margin-bottom:147px;
+}
+.wannabe_result, .hours_result{
+    font-size: 72px;
+    font-weight: bold;
+
+}
+.button_link{
+    margin-bottom: 130px;
+}
+.btn-share{
+    background-color: white;
+    font-size:24px;
+}
+.cont-footer{
+    color:white;
+    margin-bottom: 136px;
+}
+.blind{
+    display: none;
+}
+.logoimg{
+    margin-bottom: 20px;
+}
+.cont-modal{
+    width:600px;
+    height:600px;
+    background-color: white;
+    margin: 100px auto;
+    padding:50px 150px;
+    border-radius: 30px;
+
+}
+
+.cont-modal img{
+    display: block;
+    margin:10px auto;
+}
+.licat_img{
+    width:341px;
+    height:292px;
+}
+
+.btn-go{
+    margin-top:70px;
+}
